@@ -1,5 +1,13 @@
 {
     "name": "nnbao/packages",
-    "description": "this is my first package",
-    "require": {}
+    "type": "library",
+    "description": "This is my first package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "NgocBao Nguyen",
+            "email": "nnbao200196@gmail.com",
+            "role": "Developer"
+        }
+    ],
 }
