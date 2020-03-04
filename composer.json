@@ -9,5 +9,17 @@
             "email": "nnbao200196@gmail.com",
             "role": "Developer"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "nnbao\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+          "providers": [
+            "nnbao\\BaseServiceProvider"
+          ]
+        }
+    }
 }
